@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Bani Barbershop</title>
+	    <link rel="icon" type="image/jpg" href="gambar/icon.jpg">
+	    <link rel="stylesheet" type="text/css" href="template.css"/>
+    </head>
+    <body>
+    <div class="wrapper">
+			<header>
+				<h1>Bani Barbershop</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html" class="current">Home</a></li>
+						<li><a href="daftar harga.html">Daftar Perawatan</a></li>
+						<li><a href="ccd.html">Service</a></li>
+						<li><a href="Lokasi.html">Lokasi</a></li>
+						</ul>
+				</nav>
+			</header>
+			 <center>
+
+ 	<h2>Silahkan Pilih service</h2>
+ 	<a href="daftar harga.html">Melihat service</a>
+ 	<br>
+ 	<br>
+ 	<form method="post" action="simpan.php">
+ 		<table>
+ 			<tr>
+ 			<td>Nama</td>
+ 			<td><input type="text" name="nama"></td>
+ 		</tr>
+ 		<tr>
+ 		<td>service</td>
+ 		<td><select name="menu">
+ 	<option value="Potong Rambut">Potong Rambut</option>
+ 	<option value="Keramas">Keramas</option>
+ 	<option value="Cat Rambut">Cat Rambut</option>
+	<option value="Cukur Kumis/jenggot">Cukur Kumis/jenggot</option>
+	<option value="+ Ukir">+ Ukir</option>
+ 	</select>
+	</td>
+	</tr>
+	<tr>
+	<td>Telp</td>
+	<td><input type="text" name="telp"></td>
+	</tr>
+	<tr>
+	<td>Alamat</td>
+<td><textarea cols="35" rows="5" name="alamat"></textarea></td>
+	</tr>
+	<tr>
+	<td>Pilih</td>
+	<td><input type="submit" value="Simpan Data">
+	<input type="reset" value="Batal Data"></td>
+		</tr>
+		</table>
+</center>
+	<center><a href="index.html">Home</a></center> 
+    </body>
+</html>
